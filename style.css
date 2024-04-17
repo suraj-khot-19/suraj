@@ -1,0 +1,197 @@
+*
+{
+    background-color: aliceblue;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+}
+
+header a:hover {
+    background-color: #77afeb;
+}
+.header-content {
+    padding:2px 2px 2px 2px ;
+}
+.header-info{
+    padding:2px 2px 2px 2px;
+}
+.profile-image {
+    width: 170px;
+    float: left;
+    border: 5px snow grey;
+    border-radius: 3%;
+}
+
+.navigation {
+    font-weight: bold;
+    padding: 1rem 1rem;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* table */
+.max table {
+    border-collapse: collapse;
+}
+.max td {
+    border: none;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+.hover-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.hover-link:hover {
+    color: #007bff;
+}
+
+ 
+/* Style for the education table */
+.table-hover {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table headers */
+.table-hover th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table data */
+.table-hover td {
+  padding: 10px;
+}
+
+/* Style for alternating row colors */
+.table-hover tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for superscript in course names */
+.table-hover td sup {
+  font-size: 80%;
+}
+
+/* Style for result cells */
+.table-hover td:last-child {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.empty-space {
+  height: 20px; /* Adjust the height as needed */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hover-link {
+    transition: font-size 0.3s;
+}
+
+.hover-link:hover {
+    color: aqua;
+    background-color: white;
+}
+
+.skills-container {
+
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+}
+
+.skills-list {
+    
+    padding: 0;
+}
+
+li {
+    padding: 3px 3px 3px 3px;
+}
+
+.skills-list li:hover {
+    background-color: #b693934b;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+/* button */
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 13px;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+button:active {
+    background-color: blue;
+}
+hr {
+    margin: 0;
+    border: 0;
+    padding: 2px 2px;
+    border-top: 1px solid black;
+    width: 100vh;
+}
+
+
+.certify :hover {
+    color: #007bff;
+    font-weight: bold;
+    font-family: cursive;
+}
+ .vv:hover {
+    color: #007bff;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
