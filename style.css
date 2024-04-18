@@ -1,19 +1,16 @@
-*
-{
-    background-color: aliceblue;
-    font-family: Arial;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
-    
-    
 }
 
 /* Header Styles */
-.emp{
-    width:1px;
-    height:2px;
+.emp {
+    width: 1px;
+    height: 2px;
 }
 
 header {
@@ -23,17 +20,20 @@ header {
 header a:hover {
     background-color: #77afeb;
 }
+
 .header-content {
-    padding:2px 2px 2px 2px ;
+    padding: 4px 4px 4px 4px;
 }
-.header-info{
-    padding:2px 2px 2px 2px;
+
+.header-info {
+    padding: 4px 4px 4px 4px;
 }
+
 .profile-image {
     width: 170px;
     float: left;
     border: 5px snow grey;
-    border-radius: 3%;
+    border-radius: 5%;
 }
 
 .navigation {
@@ -46,10 +46,12 @@ header a:hover {
     margin: 0;
     padding: 0;
 }
+
 /* table */
 .max table {
     border-collapse: collapse;
 }
+
 .max td {
     border: none;
 }
@@ -76,44 +78,32 @@ nav ul li {
     color: #007bff;
 }
 
- 
-/* Style for the education table */
 .table-hover {
-  width: 100%;
-  border-collapse: collapse;
-    border : 1px solid grey;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px;
 }
 
-/* Style for table headers */
 .table-hover th {
-  background-color: #f2f2f2;
-  padding: 10px;
-  text-align: left;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
 }
 
 /* Style for table data */
 .table-hover td {
-  padding: 10px;
+    padding: 10px;
 }
 
-/* Style for alternating row colors */
-.table-hover tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
 
-/* Style for superscript in course names */
-.table-hover td sup {
-  font-size: 80%;
-}
 
-/* Style for result cells */
 .table-hover td:last-child {
-  color: #007bff;
-  font-weight: bold;
+    color: #007bff;
+    font-weight: bold;
 }
 
 .empty-space {
-  height: 20px; /* Adjust the height as needed */
+    height: 20px;
 }
 
 a {
@@ -131,31 +121,26 @@ a {
 }
 
 .skills-container {
-
     display: flex;
     justify-content: left;
     gap: 3rem;
 }
 
 .skills-list {
-    
     padding: 0;
+}
+.skills-list li:hover {
+    color: #007bff;
 }
 
 li {
     padding: 3px 3px 3px 3px;
 }
-
-.skills-list li:hover {
-    background-color: #b693934b;
-}
-
 .end {
     display: flex;
     justify-content: center;
     background-color: greenyellow;
     font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navigation {
@@ -183,20 +168,13 @@ button:hover {
 button:active {
     background-color: blue;
 }
+
 hr {
-    margin: 0;
-    border: 0;
-    padding: 2px 2px;
-    border-top: 1px solid black;
-    width: 100vh;
+    width: 100%;
+    color: black;
 }
 
-
-.certify :hover {
-    color: #007bff;
-    font-weight: bold;
-}
- .vv:hover {
+.vv:hover {
     color: #007bff;
     font-weight: bold;
 }
