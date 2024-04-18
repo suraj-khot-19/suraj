@@ -129,6 +129,10 @@ a {
 .skills-list {
     padding: 0;
 }
+.skills-list li {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .skills-list li:hover {
     color: #007bff;
 }
