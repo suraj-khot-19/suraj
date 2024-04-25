@@ -1,3 +1,4 @@
+/*
 * {
     font-family: Arial;
 }
@@ -6,6 +7,39 @@ body {
     margin: 0;
     padding: 0;
 }
+*/
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Define specific styles for different screen sizes */
+/* For example, make the header take up 20% of the viewport height on large screens */
+header {
+    height: 20vh;
+}
+
+/* For smaller screens, adjust the header height */
+@media only screen and (max-width: 600px) {
+    header {
+        height: 10vh;
+    }
+}
+
+
+
+
+
+
 
 /* Header Styles */
 .emp {
