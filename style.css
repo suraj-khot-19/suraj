@@ -1,4 +1,4 @@
-/*
+
 * {
     font-family: Arial;
 }
@@ -7,39 +7,6 @@ body {
     margin: 0;
     padding: 0;
 }
-*/
-
-
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-
-/* Define specific styles for different screen sizes */
-/* For example, make the header take up 20% of the viewport height on large screens */
-header {
-    height: 20vh;
-}
-
-/* For smaller screens, adjust the header height */
-@media only screen and (max-width: 600px) {
-    header {
-        height: 10vh;
-    }
-}
-
-
-
-
-
-
 
 /* Header Styles */
 .emp {
@@ -207,4 +174,52 @@ hr {
 .vv:hover {
     color: #007bff;
     font-weight: bold;
+}
+
+/* certificate style */
+/* Certificate section */
+#certificate {
+    padding: 20px;
+}
+
+#certificate h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem; /* Fixed font size for heading */
+}
+
+#certificate .container {
+    margin-top: 10px;
+}
+
+#certificate .certificate-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#certificate .certificate-list li {
+    margin-bottom: 20px;
+}
+
+#certificate .certificate-list li h3 {
+    margin-bottom: 5px;
+    font-size: 1.2rem; /* Fixed font size for certificate titles */
+}
+
+#certificate .certificate-list li ul {
+    padding: 0;
+}
+
+#certificate .certificate-list li ul li {
+    margin-left: 20px;
+    font-size: 1rem; /* Fixed font size for certificate details */
+}
+
+#certificate .certify {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem; /* Fixed font size for certificate links */
+}
+
+#certificate .certify:hover {
+    text-decoration: underline;
 }
