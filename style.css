@@ -136,6 +136,9 @@ a {
     color: #007bff;
 }
 
+.coloring b:hover{
+        color: #ff00fb;
+}
 li {
     padding: 3px 3px 3px 3px;
 }
